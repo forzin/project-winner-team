@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+#List of Pull Request 
+pullrequsts-list.txt

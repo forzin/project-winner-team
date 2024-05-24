@@ -1,0 +1,75 @@
+footer {
+  font-family: 'Manrope', sans-serif;
+}
+
+.footer-container {
+  min-width: 335px;
+  max-width: 374px;
+  min-height: 637px;
+  background-color: #1c2225;
+  background-image: url(/img/ornaments/yellow@1x-min.png);
+  background-repeat: no-repeat;
+  background-position: center 185%;
+  background-size: 452px;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navigation {
+  font-size: 14px;
+  line-height: 1.29;
+
+  display: flex;
+  gap: 40px;
+  text-transform: uppercase;
+}
+
+.list-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  min-width: 124px;
+  margin-bottom: 40px;
+}
+
+footer .link-nav:active,
+footer .link-nav:focus,
+footer .link-nav:hover {
+  color: #ecd979;
+}
+
+.tagline-wrap {
+  display: block;
+  min-width: 335px;
+  font-size: 44px;
+  line-height: 1.23;
+  letter-spacing: -0.03em;
+  /* margin-bottom: auto; */
+}
+
+.ukrainian {
+  color: #ecd979;
+}
+
+/* tablet */
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    min-width: 768px;
+    min-height: 370px;
+    background-position: center center;
+    background-size: 370px;
+  }
+
+  .tagline-wrap {
+    max-width: 521px;
+    font-size: 54px;
+    line-height: 1.19;
+    margin-bottom: auto;
+  }
+}

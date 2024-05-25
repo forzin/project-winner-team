@@ -1,0 +1,51 @@
+.hero {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #1c2225;
+  padding: 64px 0 40px 0;
+}
+.hero-by-hand {
+  display: none;
+}
+.hero-title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.09;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  margin-bottom: 20px;
+  max-width: 335px;
+}
+
+.hero-ukrainian {
+  color: #ecd979;
+}
+.hero-button-order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 70px;
+  background-color: transparent;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 39px;
+  width: 154px;
+  height: 49px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+  margin-bottom: 40px;
+  transition-duration: 1000ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-button-order:hover,
+.hero-button-order:focus {
+  border: 1px solid #ecd979;
+}
+.hero-svg-untitled {
+  fill: #ecd979;
+}

@@ -1,0 +1,34 @@
+.name-about-us {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 137%;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+
+.text-about-us-top {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  color: rgba(252, 249, 249, 0.4);
+  padding-bottom: 20px;
+}
+
+.text-about-us {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  color: rgba(252, 249, 249, 0.4);
+  margin-bottom: 50px;
+}
+
+.about-us-img {
+  padding-bottom: 62px;
+  min-width: 320px;
+  max-width: 375px;
+}
+.container {
+  min-width: 320px;
+  max-width: 375px;
+  margin: 0 auto;
+}

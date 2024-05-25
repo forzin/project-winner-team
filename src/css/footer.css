@@ -27,7 +27,6 @@ footer .container {
 }
 
 footer .navigation {
-  font-size: 14px;
   line-height: 1.29;
 
   display: flex;
@@ -116,11 +115,5 @@ footer .ukrainian {
 
   footer .navigation {
     margin-bottom: 117px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  footer .container {
-    background-position: right -99px bottom -104px;
   }
 }

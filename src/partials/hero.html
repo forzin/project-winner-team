@@ -1,1 +1,60 @@
-<section class="hero"></section>
+<section class="hero">
+  <div class="hero-container container">
+    <div class="hero-img-girl">
+      <picture>
+        <source
+          srcset="
+            /img/hero/girl-hero-mobile@1x-min.jpg 1x,
+            /img/hero/girl-hero-mobile@2x-min.jpg 2x,
+            /img/hero/girl-hero-mobile@3x-min.jpg 3x
+          "
+          media="(max-width: 767px)"
+        />
+        <source
+          srcset="
+            /img/hero/girl-hero-tablet@1x-min.jpg 1x,
+            /img/hero/girl-hero-tablet@2x-min.jpg 2x,
+            /img/hero/girl-hero-tablet@3x-min.jpg 3x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            /img/hero/girl-hero-desktop@1x-min.jpg 1x,
+            /img/hero/girl-hero-desktop@2x-min.jpg 2x,
+            /img/hero/girl-hero-desktop@3x-min.jpg 3x
+          "
+          media="(min-width: 1280px)"
+        />
+        <img
+          class=""
+          src="/img/hero/girl-hero-mobile@1x-min.jpg"
+          alt="A girl in an embroidered dress"
+          width=""
+          height=""
+        />
+      </picture>
+    </div>
+    <div class="hero-container">
+      <div class="hero-title-button">
+        <h1 class="hero-title">
+          Reviving the traditional
+          <span class="hero-ukrainian">Ukrainian</span> artistry in every
+          stitch.
+        </h1>
+        <button class="hero-button-order" type="button">
+          Order
+          <svg class="hero-svg-untitled" width="26" height="10">
+            <use href="../img/icons.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="hero-by-hand">
+        <svg class="hero-by-svg-hand">
+          <use href="../img/icons.svg#icon-star"></use>
+        </svg>
+        <p class="hero-text-by-hand">all embroidery is made by hand</p>
+      </div>
+    </div>
+  </div>
+</section>

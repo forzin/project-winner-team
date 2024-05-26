@@ -1,15 +1,25 @@
 .our-collection {
+    max-width: 478px;
+    min-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #1c2225;
     background-image: url(/img/ornaments/yellow@1x-min.png);
     background-size: 199px 177px;
     background-repeat: no-repeat;
     background-position: left -127px top 316px;
+    padding-bottom: 80px;
 }
-/* @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
     .our-collection {
         background-image: url(/img/ornaments/yellow@2x-min.png);
     }
-}  */
+}
+@media screen and (max-width: 767px) and (min-resolution: 288dpi) {
+    .our-collection {
+        background-image: url(/img/ornaments/yellow@3x-min.png);
+    }
+}
 .container {
     min-width: 320px;
     max-width: 374px;
@@ -17,7 +27,7 @@
 .title-collect {
     font-weight: 500;
     font-size: 32px;
-    line-height: 1.375;
+    line-height: 1.37;
     letter-spacing: -0.03em;
     color: #fcf9f9;
     text-align: center;
@@ -28,7 +38,6 @@
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    max-width: 335px
 }
 
 .item-collect {
@@ -61,7 +70,7 @@
     backface-visibility: hidden;
 }
 .flip-card-back {
-    background-color: yellowgreen;
+    background-image: linear-gradient(blue, yellow);
     color: white;
     transform: rotateY(180deg);
 }
@@ -83,4 +92,67 @@
     line-height: 1;
     letter-spacing: 0.05em;
     color: rgba(252, 249, 249, 0.4);
+}
+@media screen and (min-width: 768px) {
+    .our-collection {
+        max-width: 931px;
+        min-height: 430px;
+        padding-bottom: 100px;
+        background-size: 338px 300px;
+        background-position: left -223px top 220px
+    }
+    .title-collect {
+        margin-bottom: 40px;
+        font-size: 44px;
+        line-height: 1.45;
+    }
+    .list-collect {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: normal;
+    }
+
+    .item-collect {
+        width: calc((100% - 20px) / 2);
+    }
+    .description-item, .price-item {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .our-collection {
+            background-image: url(/img/ornaments/yellow@2x-min.png);
+        }
+}
+@media screen and (min-width: 768px) and (min-resolution: 288dpi) {
+    .our-collection {
+        background-image: url(/img/ornaments/yellow@3x-min.png);
+    }
+}
+@media screen and (min-width: 1280px) {
+    .our-collection {
+        max-width: 1500px;
+        padding-top: 70px;
+        padding-bottom: 150px;
+        background-size: 338px 300px;
+        background-position: left -170px top 290px
+    }
+    .list-collect {
+        gap: 40px 20px;
+    
+    }
+    .item-collect {
+    width: calc((100% - 40px) / 3);
+    }
+}
+@media screen and (min-width: 1200px) and (min-resolution: 192dpi) {
+.our-collection {
+        background-image: url(/img/ornaments/yellow@2x-min.png);
+    }
+}
+@media screen and (min-width: 1200px) and (min-resolution: 288dpi) {
+    .our-collection {
+        background-image: url(/img/ornaments/yellow@3x-min.png); 
+    }
 }

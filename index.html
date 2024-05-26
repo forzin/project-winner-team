@@ -6,16 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     <!--==== Modern Normalize ====-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
 
     <!--==== Google Fonts ====-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!--==== Swiper styles ====-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
     
     <script type="module" crossorigin src="/project-winner-team/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-winner-team/assets/index-3581781a.css">
+    <link rel="stylesheet" href="/project-winner-team/assets/index-bf0122f1.css">
   </head>
   <body>
     <header class="header"></header>
@@ -141,7 +152,85 @@
   </div>
 </section>
 
-      <section class="testimonials" id="testimonials"></section>
+      <section class="testimonials" id="testimonials">
+  <div class="container">
+    <h2 class="testimonials-title">Testimonials</h2>
+    <div class="testimonials-swiper-container swiper" id="slider">
+      <ul class="testimonials-slides swiper-wrapper">
+        <li class="testimonials-review-item swiper-slide">
+          <img
+            class="testimonials-review-avatar"
+            srcset="
+              ../img/testimonials/maria@1x-min.png 1x,
+              ../img/testimonials/maria@2x-min.png 2x,
+              ../img/testimonials/maria@3x-min.png 3x
+            "
+            src="../img/testimonials/maria@1x-min.png"
+            alt="Maria Tkachuk"
+            width="64"
+            height="64"
+          />
+          <h3 class="testimonials-subtitle">Maria Tkachuk</h3>
+          <p class="testimonials-review-text">
+            I was pleasantly surprised by the variety of embroidery offered by
+            Vyshyvanka Vibes. They have models for every taste - from classic to
+            modern. I bought an embroidered dress to celebrate a special
+            occasion and received impeccable service and refinement in every
+            detail.
+          </p>
+        </li>
+
+        <li class="testimonials-review-item swiper-slide">
+          <img
+            class="testimonials-review-avatar"
+            srcset="
+              ../img/testimonials/sergey@1x-min.png 1x,
+              ../img/testimonials/sergey@2x-min.png 2x,
+              ../img/testimonials/sergey@3x-min.png 3x
+            "
+            src="../img/testimonials/sergey@1x-min.png"
+            alt="Sergey Rybachok"
+            width="64"
+            height="64"
+          />
+          <h3 class="testimonials-subtitle">Sergey Rybachok</h3>
+          <p class="testimonials-review-text">
+            Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka are
+            simply masterpieces! I fell in love with the quality of the
+            materials and the skill of the artisans behind each product. This is
+            my favorite embroidery shop where I always find something special
+            and unique.
+          </p>
+        </li>
+
+        <li class="testimonials-review-item swiper-slide">
+          <img
+            class="testimonials-review-avatar"
+            srcset="
+              ../img/testimonials/natalia@1x-min.png 1x,
+              ../img/testimonials/natalia@2x-min.png 2x,
+              ../img/testimonials/natalia@3x-min.png 3x
+            "
+            src="../img/testimonials/natalia@1x-min.png"
+            alt="Natalia Chatuk"
+            width="64"
+            height="64"
+          />
+          <h3 class="testimonials-subtitle">Natalia Chatuk</h3>
+          <p class="testimonials-review-text">
+            Vyshyvanka Vibes is a real find for everyone who appreciates
+            Ukrainian culture. Their embroidery reflects the spirit and
+            traditions of our people. I not only buy embroidered shirts for
+            myself, but also give them to my friends abroad as a symbol of our
+            beauty and national pride.
+          </p>
+        </li>
+      </ul>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
     </main>
     <footer>
   <section class="container">
@@ -173,6 +262,8 @@
 </footer>
 
     
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     
   </body>
 </html>

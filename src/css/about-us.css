@@ -2,6 +2,28 @@
   display: block;
 }
 
+@media (min-resolution: 192dpi) {
+  .container-about-us {
+    background-image: url(/img/about-us/shirt-about-mobile@2x-min.jpg);
+  }
+}
+@media (min-resolution: 288dpi) {
+  .container-about-us {
+    background-image: url(../img/about-us/shirt-about-mobile@3x-min.jpg);
+  }
+}
+.about-us {
+  position: relative;
+}
+.background-img-about {
+  background-image: url(../img/ornaments/gray@1x-min.png);
+  position: absolute;
+  width: 459px;
+  height: 408px;
+  right: -255px;
+  bottom: 0;
+}
+
 .name-about-us {
   font-weight: 500;
   font-size: 32px;
@@ -33,6 +55,26 @@
     font-size: 16px;
     line-height: 20px;
   }
+  .background-img-about {
+    background-image: url(../img/ornaments/gray@1x-min.png);
+    position: absolute;
+    width: 545px;
+    height: 484px;
+    right: -100px;
+    bottom: 0;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .container-about-us {
+      background-image: url(/img/about-us/shirt-about-tablet@2x-min.jpg);
+    }
+  }
+
+  @media (min-resolution: 288dpi) {
+    .container-about-us {
+      background-image: url(/img/about-us/shirt-about-tablet@3x-min.jpg);
+    }
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -61,5 +103,24 @@
     line-height: 145%;
     letter-spacing: -0.03em;
     padding-top: 79px;
+  }
+  .background-img-about {
+    background-image: url(../img/ornaments/gray@1x-min.png);
+    position: absolute;
+    width: 545px;
+    height: 484px;
+    right: 0;
+    bottom: 0;
+  }
+  @media (min-resolution: 192dpi) {
+    .container-about-us {
+      background-image: url(/img/about-us/shirt-about-desktop@2x-min.jpg);
+    }
+  }
+
+  @media (min-resolution: 288dpi) {
+    .container-about-us {
+      background-image: url(/img/about-us/shirt-about-desktop@3x-min.jpg);
+    }
   }
 }

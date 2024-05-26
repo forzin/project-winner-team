@@ -1,0 +1,136 @@
+@media screen and (max-width: 1279px) {
+  .backdrop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999999999;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .backdrop.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .backdrop.is-open > .mobile-menu {
+    transform: translateX(-274px);
+  }
+
+  .mobile-menu {
+    padding: 20px;
+    width: 274px;
+    height: 100%;
+    position: absolute;
+    right: -274px;
+    top: 0;
+    background-color: #ecd979;
+    background-image: url('/img/ornaments/black@1x-min.png');
+    background-repeat: no-repeat;
+    background-size: 100% 251px;
+    background-position: bottom;
+    transition: transform 250ms linear;
+  }
+  @media only screen and (min-resolution: 192dpi) {
+    .mobile-menu {
+      background-image: url('/img/ornaments/black@2x-min.png');
+    }
+  }
+  @media only screen and (min-resolution: 288dpi) {
+    .mobile-menu {
+      background-image: url('/img/ornaments/black@3x-min.png');
+    }
+  }
+
+  .close-button {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 20px;
+    right: 29px;
+    line-height: 0;
+    border: none;
+    background-color: transparent;
+  }
+  .close-icon {
+    stroke: #1c2225;
+    transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .close-icon:hover,
+  .close-icon:focus,
+  .close-icon:active {
+    stroke: #fcf9f9;
+  }
+
+  .contact-telephone-modal {
+    display: block;
+    color: #1c2225;
+    font-size: 12px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    border-radius: 15px;
+    border: 1px solid rgba(28, 34, 37, 0.1);
+    display: flex;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 158px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .contact-telephone-modal:hover,
+  .contact-telephone-modal:focus,
+  .contact-telephone-modal:active {
+    color: #fcf9f9;
+    border: #fcf9f9;
+  }
+
+  .modal-menu {
+    display: flex;
+    flex-direction: column;
+    color: #1c2225;
+    font-size: 14px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    align-items: end;
+    margin-top: 223px;
+    gap: 25px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .mobile-menu {
+      width: 380px;
+      background-repeat: no-repeat;
+      background-size: 100% 366px;
+      background-position: bottom;
+    }
+    .modal-menu-item {
+      font-size: 14px;
+      line-height: 1.29;
+      text-transform: uppercase;
+    }
+
+    .modal-menu-item-link {
+      outline: transparent;
+      outline-offset: 4px;
+      transition: color 250ms linear;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .modal-menu-item-link:hover,
+    .modal-menu-item-link:focus,
+    .modal-menu-item-link:active {
+      color: #fcf9f9;
+    }
+  }
+}

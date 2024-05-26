@@ -27,7 +27,7 @@
 .name-about-us {
   font-weight: 500;
   font-size: 32px;
-  line-height: 137%;
+  line-height: 1.375;
   letter-spacing: -0.03em;
   margin-bottom: 40px;
 }
@@ -49,7 +49,7 @@
 
 @media screen and (min-width: 768px) {
   .container-about-us {
-    padding-top: 80px;
+    padding-top: 100px;
   }
   .text-about-us {
     font-size: 16px;
@@ -80,6 +80,7 @@
 @media screen and (min-width: 1280px) {
   .container-about-us {
     display: flex;
+    padding-top: 150px;
     min-height: 545px;
     gap: 50px;
   }

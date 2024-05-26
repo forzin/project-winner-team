@@ -1,0 +1,63 @@
+.testimonials-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.37;
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+
+.swiper-pagination {
+  position: static;
+  margin-top: 12px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ecd979;
+}
+
+.testimonials-review-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 54px 22px 18px;
+  border-radius: 4px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  box-shadow: 0 1px 4px 0 rgba(16, 24, 40, 0.06);
+}
+
+.testimonials-review-avatar {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.testimonials-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.testimonials-review-text {
+  color: rgba(252, 249, 249, 0.4);
+  line-height: 1.35;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials-title {
+    font-size: 44px;
+    line-height: 1.45;
+  }
+
+  .testimonials-review-item {
+    box-shadow: 0 2px 32px 4px rgba(18, 20, 23, 0.02);
+  }
+
+  .testimonials-review-text {
+    font-size: 16px;
+    width: 292px;
+  }
+}

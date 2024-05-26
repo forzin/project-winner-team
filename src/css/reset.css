@@ -7,22 +7,22 @@ h5,
 h6,
 p {
   margin: 0;
+  margin-bottom: 0;
 }
 
 p:last-child {
   margin-bottom: 0;
 }
 
+ol,
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {

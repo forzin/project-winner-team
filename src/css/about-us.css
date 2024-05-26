@@ -1,3 +1,7 @@
+.container-about-us {
+  display: block;
+}
+
 .name-about-us {
   font-weight: 500;
   font-size: 32px;
@@ -6,29 +10,56 @@
   margin-bottom: 40px;
 }
 
-.text-about-us-top {
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: -0.04em;
-  color: rgba(252, 249, 249, 0.4);
-  padding-bottom: 20px;
-}
-
 .text-about-us {
   font-weight: 400;
   font-size: 14px;
   letter-spacing: -0.04em;
   color: rgba(252, 249, 249, 0.4);
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
-.about-us-img {
+.cont-img-about {
   padding-bottom: 62px;
-  min-width: 320px;
-  max-width: 375px;
 }
-.container {
-  min-width: 320px;
-  max-width: 375px;
-  margin: 0 auto;
+.cont-text-about {
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .container-about-us {
+    padding-top: 80px;
+  }
+  .text-about-us {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-about-us {
+    display: flex;
+    min-height: 545px;
+    gap: 50px;
+  }
+  .cont-img-about {
+    width: 594px;
+  }
+  .cont-text-about {
+    width: 536px;
+  }
+  .text-about-us {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    margin-bottom: 20px;
+  }
+  .name-about-us {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 145%;
+    letter-spacing: -0.03em;
+    padding-top: 79px;
+  }
 }

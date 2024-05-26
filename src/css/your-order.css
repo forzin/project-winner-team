@@ -1,0 +1,225 @@
+/* ==== YOUR ORDER ==== */
+.your-order-container {
+  padding-top: calc(80px + 500px);
+  background-image: url(/img/your-order/girl-order-mobile@1x-min.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+}
+
+@media (min-resolution: 192dpi) {
+  .your-order-container {
+    background-image: url(/img/your-order/girl-order-mobile@2x-min.jpg);
+  }
+}
+
+@media (min-resolution: 288dpi) {
+  .your-order-container {
+    background-image: url(/img/your-order/girl-order-mobile@3x-min.jpg);
+  }
+}
+
+.your-order-img {
+  display: none;
+}
+
+.your-order-title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.37;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  margin-bottom: 40px;
+}
+
+.your-order-title-accent {
+  color: #ecd979;
+}
+
+.form-input {
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(252, 249, 249, 0.5);
+  width: 100%;
+  height: 47px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 16px;
+  background-color: transparent;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 20px;
+}
+
+.form-input:focus {
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #fcf9f9;
+  border: 1px solid rgba(252, 249, 249, 0.6);
+}
+
+.form-textarea {
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(252, 249, 249, 0.5);
+  width: 100%;
+  height: 196px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 8px;
+  padding: 14px 16px;
+  background-color: transparent;
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 40px;
+}
+
+.form-textarea:focus {
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #fcf9f9;
+  border: 1px solid rgba(252, 249, 249, 0.6);
+}
+
+.form-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 36px;
+  width: 145px;
+  height: 49px;
+  background-color: transparent;
+}
+
+.form-button-icon {
+  margin-left: 10px;
+  fill: #ecd979;
+}
+
+.form-button:hover,
+.form-button:focus {
+  border-color: #ecd979;
+}
+
+@media screen and (max-width: 374px) {
+  .your-order-container {
+    padding-top: calc(80px + 100% * (500 / 375));
+  }
+
+  .form-button {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .your-order-img {
+    display: block;
+  }
+  .your-order-img img {
+    border-radius: 4px;
+  }
+
+  .your-order-container {
+    padding-top: calc(100px + 766px);
+    padding-bottom: 79px;
+    background-image: url(/img/your-order/girl-order-tablet@1x-min.jpg);
+  }
+
+  @media (min-resolution: 192dpi) {
+    .your-order-container {
+      background-image: url(/img/your-order/girl-order-tablet@2x-min.jpg);
+    }
+  }
+
+  @media (min-resolution: 288dpi) {
+    .your-order-container {
+      background-image: url(/img/your-order/girl-order-tablet@3x-min.jpg);
+    }
+  }
+
+  .your-order {
+    background-image: url(/img/ornaments/gray@1x-min.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% - (545px / 2) - 61px) bottom;
+    background-size: 545px;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .your-order {
+      background-image: url(/img/ornaments/gray@2x-min.png);
+    }
+  }
+
+  @media (min-resolution: 288dpi) {
+    .your-order {
+      background-image: url(/img/ornaments/gray@3x-min.png);
+    }
+  }
+
+  .your-order-form-kontainer {
+    max-width: 542px;
+  }
+
+  .your-order-title {
+    font-size: 44px;
+    line-height: 1.32;
+  }
+
+  .order-form {
+    padding-right: 34px;
+    margin-bottom: 100px;
+  }
+
+  .form-button {
+    font-size: 16px;
+    padding: 14px 39px;
+    width: 168px;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .your-order-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    column-gap: 50px;
+    padding-top: calc(150px + 766px);
+    padding-bottom: 0px;
+    background-image: url(/img/your-order/girl-order-desktop-1280@1x-min.jpg);
+    background-size: 1280px;
+  }
+
+  @media (min-resolution: 192dpi) {
+    .your-order-container {
+      background-image: url(/img/your-order/girl-order-desktop-1280@2x-min.jpg);
+    }
+  }
+
+  @media (min-resolution: 288dpi) {
+    .your-order-container {
+      background-image: url(/img/your-order/girl-order-desktop-1280@3x-min.jpg);
+    }
+  }
+
+  .order-form {
+    padding-right: 34px;
+    margin-bottom: 0;
+  }
+
+  .your-order {
+    background-position: calc(50% - (545px / 2) - 351px) bottom;
+  }
+}

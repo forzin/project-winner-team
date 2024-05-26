@@ -7,7 +7,7 @@ footer .container {
   background-color: #1c2225;
   background-image: url(/img/ornaments/yellow@1x-min.png);
   background-repeat: no-repeat;
-  background-position: center bottom -201px;
+  background-position: center bottom -86%;
   background-size: 452px;
 
   padding-top: 40px;
@@ -27,10 +27,9 @@ footer .container {
 }
 
 footer .navigation {
-  line-height: 1.29;
-
   display: flex;
   gap: 40px;
+  line-height: 1.29;
   text-transform: uppercase;
   margin-bottom: 40px;
 }
@@ -50,7 +49,6 @@ footer .link-nav:hover {
 
 footer .tagline-wrap {
   display: block;
-  /* min-width: 335px; */
   font-size: 44px;
   line-height: 1.23;
   letter-spacing: -0.03em;
@@ -76,7 +74,8 @@ footer .ukrainian {
 
 @media screen and (min-width: 768px) {
   footer .container {
-    /* min-width: 768px; */
+    min-width: 768px;
+    max-width: 1279px;
     min-height: 370px;
     background-position: right -278px center;
   }
@@ -102,6 +101,7 @@ footer .ukrainian {
 @media screen and (min-width: 1280px) {
   footer .container {
     min-height: 363px;
+    max-width: 1439px;
     background-position: right -259px bottom -103px;
     background-size: 595px;
   }
@@ -115,5 +115,11 @@ footer .ukrainian {
 
   footer .navigation {
     margin-bottom: 117px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  footer .container {
+    background-position: right -99px bottom -104px;
   }
 }

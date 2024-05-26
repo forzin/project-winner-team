@@ -1,10 +1,46 @@
-.flip-card {
-    background-color: transparent;
-    width: 335px;
-    height: 400px;
-    perspective: 1000px;
+.our-collection {
+    background-color: #1c2225;
+    background-image: url(/img/ornaments/yellow@1x-min.png);
+    background-size: 199px 177px;
+    background-repeat: no-repeat;
+    background-position: left -127px top 316px;
+}
+/* @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+    .our-collection {
+        background-image: url(/img/ornaments/yellow@2x-min.png);
+    }
+}  */
+.container {
+    min-width: 320px;
+    max-width: 374px;
+}
+.title-collect {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.375;
+    letter-spacing: -0.03em;
+    color: #fcf9f9;
+    text-align: center;
+    margin-bottom: 58px;
+}
+.list-collect {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    max-width: 335px
 }
 
+.item-collect {
+    width: 100%;
+}
+.flip-card {
+    background-color: transparent;
+    max-width: 100%;
+    height: 430px;
+    perspective: 1000px;
+    margin-bottom: 18px;
+}
 .flip-card-inner {
     position: relative;
     width: 100%;
@@ -13,23 +49,38 @@
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
-
 .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
 }
-
 .flip-card-front,
 .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     -webkit-backface-visibility: hidden;
-    /* Safari */
     backface-visibility: hidden;
 }
-
 .flip-card-back {
-    background-color: dodgerblue;
+    background-color: yellowgreen;
     color: white;
     transform: rotateY(180deg);
+}
+.collect-img {
+    border-radius: 4px;
+}
+.description-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fcf9f9;
+    text-align: left;
+}
+.price-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    color: rgba(252, 249, 249, 0.4);
 }

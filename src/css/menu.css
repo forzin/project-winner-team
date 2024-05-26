@@ -70,7 +70,6 @@
   }
 
   .contact-telephone-modal {
-    display: block;
     color: #1c2225;
     font-size: 12px;
     line-height: 1.17;
@@ -132,5 +131,10 @@
     .modal-menu-item-link:active {
       color: #fcf9f9;
     }
+  }
+}
+@media screen and (min-width: 1280px) {
+  .backdrop {
+    display: none;
   }
 }

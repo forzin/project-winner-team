@@ -20,10 +20,7 @@
         background-image: url(/img/ornaments/yellow@3x-min.png);
     }
 }
-.container {
-    min-width: 320px;
-    max-width: 374px;
-}
+
 .title-collect {
     font-weight: 500;
     font-size: 32px;

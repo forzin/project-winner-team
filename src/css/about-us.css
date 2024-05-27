@@ -1,9 +1,8 @@
 .about-us {
-
 background-image: url(/img/ornaments/gray@1x-min.png);
-background-size: 459px 408px;
 background-repeat: no-repeat;
-background-position: right -207px bottom 0;
+  background-position: calc(50% - (458px / 2) + 458px) bottom;
+  background-size: 458px 408px; 
 
 }
 
@@ -62,10 +61,12 @@ background-position: right -207px bottom 0;
   }
  
  .about-us {
-  background-image: url(/img/ornaments/gray@1x-min.png);
- background-size: 545px 484px;
- background-repeat: no-repeat;
- background-position: right -167px bottom 0;
+background-image: url(/img/ornaments/gray@1x-min.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - (545px / 2) + 545px) bottom;
+
+      
+  background-size: 545px 484px;
  }
 
   @media (min-resolution: 192dpi) {
@@ -82,6 +83,15 @@ background-position: right -207px bottom 0;
 }
 
 @media screen and (min-width: 1280px) {
+
+  .about-us {
+    background-image: url(/img/ornaments/gray@1x-min.png);
+      background-repeat: no-repeat;
+      background-position: calc(50% - (545px / 2) + 700px) bottom;
+    
+    
+      background-size: 545px 484px;
+  }
   .container-about-us {
     display: flex;
     padding-top: 150px;

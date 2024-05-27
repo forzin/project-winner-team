@@ -1,14 +1,24 @@
+.testimonials {
+  padding: 80px 0 50px;
+}
+
 .testimonials-title {
   font-weight: 500;
   font-size: 32px;
   line-height: 1.37;
   letter-spacing: -0.03em;
   margin-bottom: 40px;
+  position: relative;
 }
 
 .swiper-pagination {
   position: static;
-  margin-top: 12px;
+  margin-top: 20px;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
 }
 
 .swiper-pagination-bullet-active {
@@ -16,6 +26,10 @@
 }
 
 .testimonials-review-item {
+  padding-top: 32px;
+}
+
+.testimonials-item-wrapper {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -44,9 +58,16 @@
 .testimonials-review-text {
   color: rgba(252, 249, 249, 0.4);
   line-height: 1.35;
+  height: 133px;
+  overflow-y: auto;
+  scrollbar-width: thin;
 }
 
 @media screen and (min-width: 768px) {
+  .testimonials {
+    padding: 100px 0 65px;
+  }
+
   .testimonials-title {
     font-size: 44px;
     line-height: 1.45;
@@ -58,6 +79,23 @@
 
   .testimonials-review-text {
     font-size: 16px;
-    width: 292px;
+    width: 300px;
+    height: 176px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .testimonials {
+    padding: 150px 0 115px;
+  }
+
+  .testimonials-review-text {
+    width: 340px;
+    height: 154px;
   }
 }

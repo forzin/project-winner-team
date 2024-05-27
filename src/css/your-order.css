@@ -100,6 +100,7 @@
   padding: 14px 36px;
   width: 145px;
   height: 49px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: transparent;
 }
 

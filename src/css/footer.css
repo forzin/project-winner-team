@@ -41,6 +41,10 @@ footer .list-nav {
   min-width: 124px;
 }
 
+footer .link-nav {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 footer .link-nav:active,
 footer .link-nav:focus,
 footer .link-nav:hover {
@@ -75,7 +79,7 @@ footer .ukrainian {
 @media screen and (min-width: 768px) {
   footer .container {
     min-width: 768px;
-    max-width: 1279px;
+    /* max-width: 1279px; */
     min-height: 370px;
     background-position: left 594px center;
   }
@@ -101,7 +105,7 @@ footer .ukrainian {
 @media screen and (min-width: 1280px) {
   footer .container {
     min-height: 363px;
-    max-width: 1439px;
+    /* max-width: 1439px; */
     background-position: left 945px bottom -103px;
     background-size: 595px;
   }

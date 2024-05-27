@@ -89,7 +89,7 @@ footer .ukrainian {
 
   footer .list-nav {
     flex-direction: row;
-    /* min-width: 124px; */
+    font-size: 14px;
   }
 
   footer .navigation {

@@ -1,0 +1,129 @@
+.hero {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 64px 0 40px 0;
+}
+.hero-by-hand {
+  display: none;
+}
+.hero-title {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.09;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  margin-bottom: 20px;
+  max-width: 335px;
+}
+
+.hero-ukrainian {
+  color: #ecd979;
+}
+.hero-button-order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 70px;
+  background-color: transparent;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  padding: 14px 39px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+  margin-bottom: 40px;
+  transition-duration: 1000ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-button-order:hover,
+.hero-button-order:focus {
+  border: 1px solid #ecd979;
+}
+.hero-svg-untitled {
+  fill: #ecd979;
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    display: flex;
+    padding: 82px 0;
+    padding: 80px 0 50px 0;
+  }
+
+  .hero-container-title-button {
+    display: flex;
+  }
+  .hero-title {
+    max-width: 549px;
+    margin: 0px 0px 40px 0px;
+
+    font-size: 64px;
+    line-height: 1.16;
+  }
+  .hero-by-svg-hand {
+    fill: #ecd979;
+  }
+  .hero-by-hand {
+    max-width: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+  }
+
+  .hero-text-by-hand {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: rgba(252, 249, 249, 0.4);
+  }
+  .hero-button-order {
+    margin-left: 141px;
+    width: 168px;
+    height: 50px;
+    font-size: 16px;
+    margin-bottom: 46px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero {
+    display: flex;
+    flex-direction: row;
+    background-color: #1c2225;
+    padding: 82px 0;
+  }
+  .hero-title {
+    max-width: 632px;
+    margin: 66px 0px 40px 40px;
+
+    font-size: 64px;
+    line-height: 1.16;
+  }
+  .hero-button-order {
+    margin-left: 181px;
+    background-color: transparent;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 15px;
+    padding: 14px 39px;
+    width: 168px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #fcf9f9;
+  }
+  .hero-svg-untitled {
+    fill: #ecd979;
+  }
+  .hero-by-hand {
+    max-width: 115px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    margin-left: 61px;
+    margin-top: 66px;
+  }
+}

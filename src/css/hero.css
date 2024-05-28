@@ -105,7 +105,8 @@
     display: flex;
     flex-direction: row;
     background-color: #1c2225;
-    padding: 75px 0;
+    padding-bottom: 75px;
+    padding-top: 100px;
   }
   .hero-title {
     max-width: 570px;

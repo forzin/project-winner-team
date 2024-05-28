@@ -43,6 +43,14 @@
 .hero-svg-untitled {
   fill: #ecd979;
 }
+
+.button-your-order {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+
 @media screen and (min-width: 768px) {
   .hero {
     display: flex;

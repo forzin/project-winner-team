@@ -99,12 +99,16 @@ header .button-burger {
   header .list-nav {
     display: flex;
     gap: 25px;
-    margin-left: 104px;
+    margin-left: 60px;
     text-transform: uppercase;
   }
 
   header .button-burger {
     display: none;
+  }
+
+  header .address {
+    margin-right: 0;
   }
 
   header .telephone {
@@ -125,4 +129,5 @@ header .button-burger {
   header .telephone:active {
     border: 1px solid #ecd979;
   }
+  
 }

@@ -132,7 +132,6 @@ footer .ukrainian {
 @media screen and (min-width: 1280px) {
   footer .container {
     min-height: 363px;
-    /* max-width: 1439px; */
   }
 
   footer {

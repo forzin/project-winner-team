@@ -23,6 +23,8 @@ header .list-item:hover {
 
 header .list-nav {
   display: none;
+  padding-top: 10, 5px;
+  padding-bottom: 10, 5px;
 }
 
 header .address {
@@ -30,6 +32,7 @@ header .address {
   font-style: normal;
   align-items: center;
   margin-left: auto;
+  margin-right: 20px;
 }
 
 header .telephone {
@@ -40,7 +43,6 @@ header .list-icon {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-right: 20px;
 }
 
 header .item-icon {

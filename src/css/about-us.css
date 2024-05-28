@@ -1,19 +1,15 @@
 .about-us {
-background-image: url(/img/ornaments/gray@1x-min.png);
-background-repeat: no-repeat;
+  background-image: url(/img/ornaments/gray@1x-min.png);
+  background-repeat: no-repeat;
   background-position: calc(50% - (458px / 2) + 458px) bottom;
-  background-size: 458px 408px; 
-
+  background-size: 458px 408px;
+  padding-top: 40px;
+  padding-bottom: 62px;
 }
-
 
 .container-about-us {
   display: block;
-  
-
 }
-
-
 
 @media (min-resolution: 192dpi) {
   .about-us {
@@ -25,8 +21,6 @@ background-repeat: no-repeat;
     background-image: url(/img/ornaments/gray@3x-min.png);
   }
 }
-
-
 
 .name-about-us {
   font-weight: 500;
@@ -42,60 +36,59 @@ background-repeat: no-repeat;
   letter-spacing: -0.04em;
   color: rgba(252, 249, 249, 0.4);
   margin-bottom: 20px;
+  line-height: 1.375;
 }
 
-.cont-img-about {
-  padding-bottom: 62px;
-}
 .cont-text-about {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 @media screen and (min-width: 768px) {
-  .container-about-us {
-    padding-top: 100px;
-  }
   .text-about-us {
     font-size: 16px;
     line-height: 20px;
   }
- 
- .about-us {
-background-image: url(/img/ornaments/gray@1x-min.png);
-  background-repeat: no-repeat;
-  background-position: calc(50% - (545px / 2) + 545px) bottom;
 
-      
-  background-size: 545px 484px;
- }
+  .about-us {
+    background-image: url(/img/ornaments/gray@1x-min.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% - (545px / 2) + 545px) bottom;
+
+    background-size: 545px 484px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 
   @media (min-resolution: 192dpi) {
-    .container-about-us {
+    .about-us {
       background-image: url(/img/ornaments/gray@2x-min.png);
     }
   }
 
   @media (min-resolution: 288dpi) {
-    .container-about-us {
+    .about-us {
       background-image: url(/img/ornaments/gray@3x-min.png);
     }
   }
 }
 
 @media screen and (min-width: 1280px) {
-
   .about-us {
     background-image: url(/img/ornaments/gray@1x-min.png);
-      background-repeat: no-repeat;
-      background-position: calc(50% - (545px / 2) + 700px) bottom;
-    
-    
-      background-size: 545px 484px;
+    background-repeat: no-repeat;
+    background-position: calc(50% - (545px / 2) + 700px) bottom;
+    padding-top: 75px;
+    padding-bottom: 80px;
+    background-size: 545px 484px;
+  }
+
+  .about-us-img {
+    width: 594px;
+    height: 545px;
   }
   .container-about-us {
     display: flex;
-    padding-top: 150px;
-    min-height: 545px;
+
     gap: 50px;
   }
   .cont-img-about {
@@ -110,6 +103,7 @@ background-image: url(/img/ornaments/gray@1x-min.png);
     font-size: 16px;
     letter-spacing: -0.04em;
     margin-bottom: 20px;
+    line-height: 1.375;
   }
   .name-about-us {
     font-family: var(--font-family);
@@ -119,16 +113,15 @@ background-image: url(/img/ornaments/gray@1x-min.png);
     letter-spacing: -0.03em;
     padding-top: 79px;
   }
-  
-  
+
   @media (min-resolution: 192dpi) {
-    .container-about-us {
+    .about-us {
       background-image: url(/img/ornaments/gray@2x-min.png);
     }
   }
 
   @media (min-resolution: 288dpi) {
-    .container-about-us {
+    .about-us {
       background-image: url(/img/ornaments/gray@3x-min.png);
     }
   }

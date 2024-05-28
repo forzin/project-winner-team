@@ -37,6 +37,7 @@
   .close-button {
     width: 36px;
     height: 36px;
+    padding: 0;
     border: none;
     background-color: transparent;
     stroke: #1c2225;
@@ -66,7 +67,7 @@
   .contact-telephone-modal:focus,
   .contact-telephone-modal:active {
     color: #fcf9f9;
-    border: #fcf9f9;
+    border-color: #fcf9f9;
   }
 
   .modal-menu {
@@ -128,8 +129,8 @@
   .menu {
     background-image: url('/img/ornaments/black@1x-min.png');
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center bottom 38px;
+    background-size: 340px 302px;
+    background-position: center bottom -51px;
   }
 }
 
@@ -156,8 +157,8 @@
     padding-right: 32px;
     background-image: url('/img/ornaments/black@1x-min.png');
     background-repeat: no-repeat;
-    background-position: center bottom 38px;
-    background-size: contain;
+    background-position: center bottom -120px;
+    background-size: 545px 484px;
   }
 }
 

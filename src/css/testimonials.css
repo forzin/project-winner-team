@@ -1,5 +1,5 @@
 .testimonials {
-  padding: 80px 0 50px;
+  padding: 40px 0 10px;
 }
 
 .testimonials-title {
@@ -65,7 +65,7 @@
 
 @media screen and (min-width: 768px) {
   .testimonials {
-    padding: 100px 0 65px;
+    padding: 50px 0 15px;
   }
 
   .testimonials-title {
@@ -91,7 +91,7 @@
 
 @media screen and (min-width: 1280px) {
   .testimonials {
-    padding: 150px 0 115px;
+    padding: 75px 0 40px;
   }
 
   .testimonials-review-text {

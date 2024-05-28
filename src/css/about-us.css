@@ -60,13 +60,13 @@
   }
 
   @media (min-resolution: 192dpi) {
-    .container-about-us {
+    .about-us {
       background-image: url(/img/ornaments/gray@2x-min.png);
     }
   }
 
   @media (min-resolution: 288dpi) {
-    .container-about-us {
+    .about-us {
       background-image: url(/img/ornaments/gray@3x-min.png);
     }
   }
@@ -115,13 +115,13 @@
   }
 
   @media (min-resolution: 192dpi) {
-    .container-about-us {
+    .about-us {
       background-image: url(/img/ornaments/gray@2x-min.png);
     }
   }
 
   @media (min-resolution: 288dpi) {
-    .container-about-us {
+    .about-us {
       background-image: url(/img/ornaments/gray@3x-min.png);
     }
   }

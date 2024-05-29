@@ -1,5 +1,4 @@
 .our-collection {
-    max-width: 478px;
     min-height: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -7,8 +6,9 @@
     background-image: url(/img/ornaments/yellow@1x-min.png);
     background-size: 199px 177px;
     background-repeat: no-repeat;
-    background-position: left -127px top 316px;
-    padding-bottom: 80px;
+    background-position-x: calc(50% - (545px / 2.7) - 12px);
+    background-position-y: calc(50% - 1180px);
+    padding-bottom: 40px;
 }
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
     .our-collection {
@@ -82,6 +82,7 @@
     text-transform: uppercase;
     color: #fcf9f9;
     text-align: left;
+    margin-bottom: 8px;
 }
 .price-item {
     font-weight: 400;
@@ -92,11 +93,12 @@
 }
 @media screen and (min-width: 768px) {
     .our-collection {
-        max-width: 931px;
         min-height: 430px;
-        padding-bottom: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
         background-size: 338px 300px;
-        background-position: left -223px top 220px
+        background-position-x: calc(50% - (545px / 1.6) - 100px);
+        background-position-y: calc(50% - 450px);
     }
     .title-collect {
         margin-bottom: 40px;
@@ -129,11 +131,11 @@
 }
 @media screen and (min-width: 1280px) {
     .our-collection {
-        max-width: 1500px;
         padding-top: 70px;
-        padding-bottom: 150px;
+        padding-bottom: 75px;
         background-size: 338px 300px;
-        background-position: left -170px top 290px
+        background-position-x: calc(50% - (545px / 1.6) - 297px);
+        background-position-y: calc(50% - 200px);
     }
     .list-collect {
         gap: 40px 20px;

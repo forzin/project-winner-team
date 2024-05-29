@@ -13,16 +13,14 @@ header .navigation {
 
 header .list-item {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 header .list-item:active,
 header .list-item:focus,
 header .list-item:hover {
   color: #ecd979;
-}
-header .nav-link {
-  padding-top: 10, 5px;
-  padding-bottom: 10, 5px;
 }
 
 header .list-nav {

@@ -1,11 +1,14 @@
 /* ==== YOUR ORDER ==== */
 .your-order {
-  padding-top: calc(40px + 500px + 80px);
+  padding-top: calc(40px + 500px + 40px);
   padding-bottom: 40px;
   background-image: url(/img/your-order/girl-order-mobile@1x-min.jpg);
   background-repeat: no-repeat;
   background-position: center 40px;
   background-size: 375px;
+}
+.your-order-container {
+  padding-top: 40px;
 }
 
 @media (min-resolution: 192dpi) {
@@ -124,7 +127,7 @@
 
 @media screen and (max-width: 374px) {
   .your-order {
-    padding-top: calc(40px + 80px + 100% * (500 / 375));
+    padding-top: calc(40px + 40px + 100% * (500 / 375));
     background-size: contain;
   }
 }
@@ -144,7 +147,7 @@
   }
 
   .your-order {
-    padding-top: calc(50px + 776px + 100px);
+    padding-top: calc(50px + 776px + 50px);
     padding-bottom: 129px;
     background-image: url(/img/your-order/girl-order-tablet@1x-min.jpg),
       url(/img/ornaments/gray@1x-min.png);
@@ -152,6 +155,10 @@
     background-position: center 50px,
       left calc(50% - (545px / 2) - 61px) bottom 50px;
     background-size: 768px, 545px;
+  }
+
+  .your-order-container {
+    padding-top: 50px;
   }
 
   @media (min-resolution: 192dpi) {
@@ -195,15 +202,8 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .your-order-container {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    column-gap: 50px;
-  }
-
   .your-order {
-    padding-top: calc(75px + 776px + 150px);
+    padding-top: calc(75px + 776px + 75px);
     padding-bottom: 75px;
     background-image: url(/img/your-order/girl-order-desktop-1280@1x-min.jpg),
       url(/img/ornaments/gray@1x-min.png);
@@ -224,6 +224,14 @@
       background-image: url(/img/your-order/girl-order-desktop-1280@3x-min.jpg),
         url(/img/ornaments/gray@3x-min.png);
     }
+  }
+
+  .your-order-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    column-gap: 50px;
+    padding-top: 75px;
   }
 
   .your-order-form-container {

@@ -32,18 +32,18 @@ footer .navigation {
   gap: 40px;
   line-height: 1.29;
   text-transform: uppercase;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 
 footer .list-nav {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 25px;
+  gap: 25px;
   max-width: 280px;
   align-items: flex-start;
 }
 
-footer .link-nav {
+footer .link-nav-items {
   padding-bottom: 25px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -65,9 +65,9 @@ footer .four {
   order: 3;
 }
 
-footer .link-nav:active,
-footer .link-nav:focus,
-footer .link-nav:hover {
+footer .link-nav-items:active,
+footer .link-nav-items:focus,
+footer .link-nav-items:hover {
   color: #ecd979;
 }
 
@@ -125,7 +125,7 @@ footer .ukrainian {
 
   footer .navigation {
     gap: 25px;
-    margin-bottom: 55px;
+    margin-bottom: 80px;
   }
 }
 
@@ -148,7 +148,7 @@ footer .ukrainian {
   }
 
   footer .navigation {
-    margin-bottom: 92px;
+    margin-bottom: 117px;
   }
 }
 

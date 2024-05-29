@@ -144,12 +144,13 @@
   }
 
   .your-order {
-    padding-top: calc(50px + 766px + 100px);
-    padding-bottom: 50px;
+    padding-top: calc(50px + 776px + 100px);
+    padding-bottom: 129px;
     background-image: url(/img/your-order/girl-order-tablet@1x-min.jpg),
       url(/img/ornaments/gray@1x-min.png);
     background-repeat: no-repeat;
-    background-position: center 50px, calc(50% - (545px / 2) - 61px) bottom;
+    background-position: center 50px,
+      left calc(50% - (545px / 2) - 61px) bottom 50px;
     background-size: 768px, 545px;
   }
 
@@ -169,6 +170,7 @@
 
   .your-order-form-container {
     max-width: 542px;
+    margin-bottom: 100px;
   }
 
   .your-order-title {
@@ -178,7 +180,10 @@
 
   .order-form {
     padding-right: 34px;
-    margin-bottom: 100px;
+  }
+
+  .form-input {
+    height: 50px;
   }
 
   .form-button {
@@ -198,7 +203,7 @@
   }
 
   .your-order {
-    padding-top: calc(75px + 766px + 150px);
+    padding-top: calc(75px + 776px + 150px);
     padding-bottom: 75px;
     background-image: url(/img/your-order/girl-order-desktop-1280@1x-min.jpg),
       url(/img/ornaments/gray@1x-min.png);
@@ -221,8 +226,7 @@
     }
   }
 
-  .order-form {
-    padding-right: 34px;
+  .your-order-form-container {
     margin-bottom: 0;
   }
 }
